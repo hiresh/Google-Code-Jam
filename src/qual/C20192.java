@@ -150,29 +150,6 @@ public class C20192 {
         }
     }
 
- /*   private static int hcf(int n1, int n2,int n){
-        if(n1==n2){
-            return findPrimeFactor(n1,n);
-        }
-        n1 = ( n1 > 0) ? n1 : -n1;
-        n2 = ( n2 > 0) ? n2 : -n2;
-        while(n1 != n2)
-        {
-            if(n1 > n2)
-                n1 -= n2;
-            else
-                n2 -= n1;
-        }
-        return n1;
-    }*/
- /*   private static int findPrimeFactor(BigInteger n1,BigInteger n){
-        for(BigInteger i=3;i<=n;i+=2){
-            if(n1%i==0)
-                return i;
-        }
-       return 0;
-    }
-    */
     private static void createTest(String s){
         int[] primes = new int[]{3769,3833,3877,4967, 4969, 4973, 4987, 4993, 4999, 5003, 5009, 5011, 5021, 5023, 5039, 5051, 5059, 5077, 5081, 5087, 5099, 5101, 5107, 5113, 5119, 5147};
 //26
